@@ -50,9 +50,9 @@ function checkIfDriverIsInstalled() {
 $(document).ready(function() {
 
   // Check if Driver is running
-  var DriverCheckinterval = setInterval(function() {
-    checkIfDriverIsInstalled();
-  }, 1000);
+  // var DriverCheckinterval = setInterval(function() {
+  //   checkIfDriverIsInstalled();
+  // }, 1000);
   getAvailableDriverVersion()
 
 });
