@@ -107,11 +107,11 @@ function getTextFromData(fontData, fontVariant, text, fontSize, x, y) {
 function getTextFromFile(file, text, fontSize, offsetX, offsetY) {
   return getFont(file).then(function(font) {
 
-    spaceWidth=parseFloat($("#fontspacing").val());
+    spaceWidth=parseFloat($("#fontspacing").val())*200;
 
     var unitSwitch = document.getElementById("unitSwitch");
     if(unitSwitch.checked){
-      var spaceWidth=spaceWidth/25.4;
+      var spaceWidth=spaceWidth;
       var xpos=16;
       var ypos=.4;
     }else{
