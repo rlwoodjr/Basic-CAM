@@ -111,7 +111,6 @@ function getTextFromFile(file, text, fontSize, offsetX, offsetY) {
 
     var unitSwitch = document.getElementById("unitSwitch");
     if(unitSwitch.checked){
-      var spaceWidth=spaceWidth;
       var xpos=16;
       var ypos=.4;
     }else{
